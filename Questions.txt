@@ -1,1 +1,4 @@
-Rollback, SQL injection, where local data store in?
+1. Server.js hot reload w/ refresh
+2. Can MongoDB do rollback?
+3. Does MongoDB also have SQL injection problem?
+4. User name and pwd for DB?

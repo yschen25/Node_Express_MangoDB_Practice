@@ -1,0 +1,24 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin: auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+select {
+  width: 40%;
+  height: 30px;
+  margin: 20px;
+}
+
+span {
+  width: 200px;
+  display: inline-block;
+}
+
+.delete {
+  text-decoration: line-through;
+}
