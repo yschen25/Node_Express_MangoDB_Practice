@@ -32,13 +32,9 @@ app.get("/todos", async (req, res, next) => {
 app.post("/todos", async (req, res, next) => {
 
     try {
-        console.log('REQ',req);
-
         const todo = await db.TodoList.create(req.body);
-
         return success(res, todo);
     } catch (err) {
-        console.log('err', err);
         next({status: 400, message: "failed to create todo"});
     }
 });

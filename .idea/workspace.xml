@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="537c917f-3847-48f7-9677-2d1535840f37" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/todoModel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/.babelrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/src/components/form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/src/components/todo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/src/components/todoList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/styles/index.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/utility/apiHelper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/webpack.base.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/webpack.prod.config.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1o1RZ5NlFdZkSEw0LLlJfmmuq6J" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Todolist-React-Node-mysql" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Users\yschen\AppData\Local\JetBrains\Toolbox\apps\PhpStorm\ch-0\202.6948.87\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\yschen\Desktop\Project_20210120\Project\Node_Express_MangoDB_Practice\not in use" />
+      <recent name="C:\Users\yschen\Desktop\Project_20210120\Project\Node_Express_MangoDB_Practice\src" />
+      <recent name="C:\Users\yschen\Desktop\Project_20210120\Project\Node_Express_MangoDB_Practice\view\src" />
+      <recent name="C:\Users\yschen\Desktop\Project_20210120\Project\Node_Express_MangoDB_Practice\view" />
+      <recent name="C:\Users\yschen\Desktop\Project_20210120\Project\Node_Express_MangoDB_Practice\view\src\components" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="537c917f-3847-48f7-9677-2d1535840f37" name="Default Changelist" comment="" />
+      <created>1612452163644</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612452163644</updated>
+      <workItem from="1612452165276" duration="13431000" />
+      <workItem from="1612480576994" duration="877000" />
+      <workItem from="1612516433892" duration="70000" />
+      <workItem from="1612516661794" duration="8695000" />
+      <workItem from="1612602762298" duration="16651000" />
+      <workItem from="1612627331522" duration="90000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="741" y="96" key="FileChooserDialogImpl" timestamp="1612605405415">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="741" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1612605405415" />
+    <state x="343" y="72" width="632" height="536" key="find.popup" timestamp="1612620592199">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="343" y="72" width="632" height="536" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1612620592199" />
+  </component>
+</project>
