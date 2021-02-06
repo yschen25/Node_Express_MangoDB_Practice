@@ -1,22 +1,61 @@
 const express = require('express');
 const app = express();
-const mongoose = require('mongoose');
-const url = "mongodb://localhost:27017/todoDB"
-mongoose.connect(url, {useNewUrlParser: true, useUnifiedTopology: true});
-const db = mongoose.connection;
+const cors = require('cors');
+const db = require('./model');
+
+app.use(cors());
 
 app.listen(3000, function () {
     console.log('listening on 3000');
 })
 
+app.use(bodyParser.json());
+
+function success(res, payload) {
+    return res.status(200).json(payload);
+}
+
 app.get('/', (req, res) => {
     res.send('Hello World');
 })
 
-db.on('open', () => {
-    console.log('Mongodb has been connected');
-})
+app.get("/todos", async (req, res, next) => {
+    try {
+        const todos = await db.TodoList.find({});
+        return success(res, todos);
+    } catch (err) {
+        console.log('err', err);
+        next({ status: 400, message: "failed to get todos" });
+    }
+});
 
-db.on('error', (error) => {
-    console.log('Something went wrong in the connection :', error);
-})
+app.post("/todos", async (req, res, next) => {
+    try {
+        const todo = await db.TodoList.create(req.body);
+        return success(res, todo);
+    } catch (err) {
+        next({ status: 400, message: "failed to create todo" });
+    }
+});
+
+app.put("/todos/:id", async (req, res, next) => {
+    try {
+        const todo = await db.TodoList.findByIdAndUpdate(req.params.id, req.body, {
+            new: true
+        });
+        return success(res, todo);
+    } catch (err) {
+        next({ status: 400, message: "failed to update todo" });
+    }
+});
+
+app.delete("/todos/:id", async (req, res, next) => {
+    try {
+        await db.TodoList.findByIdAndRemove(req.params.id);
+        return success(res, "todo deleted!");
+    } catch (err) {
+        next({ status: 400, message: "failed to delete todo" });
+    }
+});
+
+
