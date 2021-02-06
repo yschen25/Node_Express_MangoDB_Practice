@@ -13,7 +13,8 @@ const Index = () => {
     useEffect(() => {
         const fetchTodoAndSetTodos = async () => {
             const todos = await apiHelper.getAllTodos();
-            console.log('todos', todos);
+            console.log('todos from DB', todos);
+            setTodos(todos);
         };
         fetchTodoAndSetTodos();
     }, []);
@@ -35,7 +36,6 @@ const Index = () => {
     useEffect(() => {
         filterHandler();
     }, [todos, status]);
-
 
     return (
         <div className="App">

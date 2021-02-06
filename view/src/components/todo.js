@@ -1,10 +1,11 @@
 import React from "react";
 
 const Todo = ({ name, todos, todo, setTodos }) => {
+
     const completedHandler = () => {
         setTodos(
             todos.map((ele) => {
-                if (ele.id === todo.id) {
+                if (ele._id === todo._id) {
                     return { ...ele, completed: !ele.completed };
                 }
                 return ele;

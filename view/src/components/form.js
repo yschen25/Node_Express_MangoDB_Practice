@@ -1,15 +1,20 @@
 import React from "react";
+import apiHelper from "../../utility/apiHelper";
 
 const Form = ({ setStatus, inputText, todos, setInputText, setTodos }) => {
     const inputHandler = (e) => {
         setInputText(e.target.value);
     };
 
-    const submitHandler = (e) => {
+    const submitHandler = async (e) => {
         e.preventDefault();
+
+        console.log('inputText', inputText);
+        await apiHelper.createTodo(inputText);
+
         setTodos([
             ...todos,
-            { id: Math.random() * 100, message: inputText, completed: false }
+            todo
         ]);
 
         setInputText("");

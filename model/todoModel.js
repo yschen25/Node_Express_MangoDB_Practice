@@ -2,12 +2,7 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 let todoSchema = new Schema({
-    id: {
-        type: Number,
-        unique: true,
-        required: true
-    },
-    message: {
+    list: {
         type: String
     },
     completed: {
