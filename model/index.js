@@ -11,4 +11,7 @@ db.on('error', (error) => {
     console.log('Something went wrong in the connection :', error);
 })
 
+mongoose.set('debug', true);
+mongoose.Promise = Promise;
+
 module.exports.TodoList = require("./todoModel");

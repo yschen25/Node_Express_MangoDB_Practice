@@ -2,8 +2,12 @@ import axios from "axios";
 
 const API_URL = "http://localhost:3000/todos/"
 
-async function createTodo(list) {
+async function getAllTodos() {
+    const {data: todos} = await axios.get(API_URL);
+    return todos;
+}
 
+async function createTodo(list) {
     const {data: newTodo} = await axios.post(API_URL, {
         list
     });
@@ -19,9 +23,4 @@ async function updateTodo(id, payload) {
     return newTodo;
 }
 
-async function getAllTodos() {
-    const {data: todos} = await axios.get(API_URL);
-    return todos;
-}
-
-export default {createTodo, deleteTodo, updateTodo, getAllTodos};
+export default {getAllTodos, createTodo, deleteTodo, updateTodo};

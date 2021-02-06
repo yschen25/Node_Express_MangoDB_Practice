@@ -9,12 +9,11 @@ const Form = ({ setStatus, inputText, todos, setInputText, setTodos }) => {
     const submitHandler = async (e) => {
         e.preventDefault();
 
-        console.log('inputText', inputText);
-        await apiHelper.createTodo(inputText);
+        const newTodo = await apiHelper.createTodo(inputText);
 
         setTodos([
             ...todos,
-            todo
+            newTodo
         ]);
 
         setInputText("");
